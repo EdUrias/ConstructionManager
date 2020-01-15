@@ -1,0 +1,252 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-Jan-2020, 01:31:05
+    Author     : Malchiel
+*/
+ body{
+     font-family: 'Montserrat', sans-serif;
+     color: #2C7258;
+/*     background: url("img/Construction Building.jpeg") no-repeat center center;*/
+/*     background: linear-gradient(rgb(48, 67, 82), rgb(215, 210, 204))  no-repeat center center;
+     background-attachment: fixed;
+     background-size: cover;*/
+ }
+
+/* .whitePortion{
+    background-color: #fff; 
+ }*/
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.navbar {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.homejumbotron{
+/*	margin: 20px 15px 10px 0;*/
+        background: #73C8A9; 
+        background: -webkit-linear-gradient(to top, #373B44, #73C8A9);
+        background: linear-gradient(to top, #373B44, #73C8A9);
+/*	background-color: blue;*/
+	color: #fff;
+	text-align: center;  
+	letter-spacing: 2.5px;
+        height: calc(100vh);
+}
+
+.projectjumbotron{
+    text-align: center;
+    height: calc(100vh);
+    position: relative;
+    z-index: 5;
+    margin-bottom: 0;
+          min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: #2C7258;/*
+    background: transparent;*/
+}
+
+.projectImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.2;
+      min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .jumboDiv{
+    background: #73C8A9;   fallback for old browsers;
+    background: -webkit-linear-gradient(to top, #373B44, #73C8A9);   Chrome 10-25, Safari 5.1-6;
+    background: linear-gradient(to top, #373B44, #73C8A9);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+;
+
+ }*/
+
+#search{
+    align: center;
+    margin-top: 250px;
+    margin-left: 400px; 
+    padding-top: 80px;
+}
+
+#useAs{
+    margin-top: 50px;
+}
+
+/*.navbar-nav{
+    margin: 0 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}*/
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.display-4{
+    font-weight: bold;
+}
+
+.projectManagerBg{
+    background-repeat: no repeat;
+    background-position: right-top;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex: 0 0 50;
+    max-width: 50%;
+/*    width: 100%;
+*/    width: 1800px;
+    height: 400px;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.visitorBg{
+    background-repeat: no repeat;
+    background-position: right-top;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    flex: 0 0 50;
+    position: relative;
+    max-width: 50%;
+    padding-top: 50px;
+/*    width: 100%;
+*/    width: 670px;;
+    height: 457px;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.projectManagerDiv{
+    padding: 20px 0 20px 0;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar{
+    background: #373B44;
+}
+
+#jumboContainer{
+    padding: 250px 0 50px 0;
+}
+
+.display-2{
+    font-weight: bold;
+}
+/*.jumbotron-fluid{
+    float: left;
+}*/
+
+.btn-success{
+    color: rgb(180, 191, 233);
+    background-color: rgb(36, 85, 122);
+    border: 1px solid rgb(36, 85, 122);
+    margin: 0 10px 0 0px;
+}
+
+.btn-success:hover{
+    color: rgb(180, 191, 233);
+    background-color: rgb(125, 144, 216);
+    border: 1px solid rgb(125, 144, 216);
+}
+
+.projectManagerBg{
+    background-position: left;
+    postion: relative;
+}
+
+
+
+.visitor{
+    background-position: right;
+}
+
+.getTouch{
+    margin-bottom: 20px;
+}
+
+.pmWords{
+    background-position: right;
+    position: relative;
+    text-justify: center;
+    padding-top: 40px;
+}
+
+.visitorWords{
+    background-position: left;
+    position: relative;
+    text-justify: center;
+    padding-top: 100px;
+}
+
+.projectWords{
+    background-position: center;
+    position: relative;
+    text-justify: center;
+    padding-top: 250px;
+    opacity: 1;
+}
+/*#leftSection{
+    text-align: left;
+    flex-basis: 48%;
+}*/
+
+.darkerGradient{
+    background: linear-gradient(rgb(48, 67, 82), rgb(215, 210, 204))  no-repeat center center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    color: #fff;
+    background-size: cover;
+    background: #44A08D;   /*fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #093637, #44A08D);   /*Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*.lightGradient{
+    background: #A1FFCE;   fallback for old browsers 
+    background: -webkit-linear-gradient(to top, #FAFFD1, #A1FFCE);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to top, #FAFFD1, #A1FFCE);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+
+}*/
+
+
+.regcontainer{
+    margin-top: 150px;
+}
